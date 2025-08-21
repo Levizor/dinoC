@@ -274,6 +274,7 @@ int main() {
     // drawing
     draw(dino, obstacles, screen, score);
 
+    // increase speed
     if (score.count == 10) {
       INTERVAL = 25000;
     } else if (score.count == 20) {
