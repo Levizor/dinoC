@@ -226,8 +226,8 @@ int main() {
       if (dino.onGround) {
         dino.velocity = -3.5;
         dino.onGround = 0;
-        break;
       }
+      break;
     case 'q':
       return 0;
     }
