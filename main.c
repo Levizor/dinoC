@@ -267,7 +267,6 @@ int main() {
       if (box_overlap(obs->cbox, dino.cbox)) {
         printf("Game Over!\n");
         printf("Your score is: %lu\n", score.count);
-        printf("INTERVAL: %du\n", INTERVAL);
         return 0;
       }
     }
